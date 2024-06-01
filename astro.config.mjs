@@ -21,7 +21,7 @@ const whenExternalScripts = (items = []) =>
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'hybrid',
+  output: 'static',
   integrations: [
     tailwind({
       applyBaseStyles: false,
