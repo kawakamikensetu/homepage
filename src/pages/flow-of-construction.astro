@@ -1,0 +1,31 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Steps from '~/components/widgets/Steps.astro';
+---
+
+<Layout>
+  <Steps
+    id="resume"
+    title="施工までの流れ"
+    items={[
+      {
+        title: 'お問い合わせ',
+        description: '電話にて迅速な対応を心がけます<br /><br />直通電話 : 070-2825-3434<br />',
+        icon: 'tabler:briefcase',
+      },
+      {
+        title: '現地調査',
+        description:
+          '現場に直接お伺いし、寸法を計らせて頂きお見積りさせて頂きます。<br />最短当日対応可能！<br />急ぎの場合は、情報をお伺いしその情報を元に概算を出すことも可能です。<br />',
+        icon: 'tabler:briefcase',
+      },
+      {
+        title: '工事着工',
+        description:
+          'ご依頼をいただきましたら１週間以降にご依頼希望日をお伺いし、工事日を決めさせて頂きます。<br />基本的に１週間以降のご依頼をお願いしておりますが、お急ぎの場合はご相談ください！ご希望に添えるようにご協力させて頂きます！',
+        icon: 'tabler:briefcase',
+      },
+    ]}
+    classes={{ container: 'max-w-3xl' }}
+  />
+</Layout>
