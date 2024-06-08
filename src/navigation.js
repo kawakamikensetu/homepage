@@ -68,13 +68,11 @@ export const footerData = {
     },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     {
       ariaLabel: 'Instagram',
       icon: 'tabler:brand-instagram',
       href: 'https://www.instagram.com/y_725nissy?igsh=MXBrZWowMThkN2dzMg%3D%3D&utm_source=qr',
     },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
   ],
   footNote: '©️ 2024 川上建設',
 };

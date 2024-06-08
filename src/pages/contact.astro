@@ -9,38 +9,40 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText title="お問い合わせフォーム" />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
     subtitle="必須項目はすべて入力してください"
     inputs={[
       {
         type: 'text',
         name: '会社名',
         label: '会社名',
+        required: true,
       },
       {
         type: 'text',
         name: '住所',
         label: '住所',
+        required: true,
       },
       {
         type: 'text',
         name: '電話番号',
         label: '電話番号',
+        required: true,
       },
       {
         type: 'text',
         name: '担当者名',
         label: '担当者名',
+        required: true,
       },
       {
         type: 'email',
         name: 'メールアドレス（任意）',
         label: 'メールアドレス（任意）',
-        required: true,
       },
     ]}
     textarea={{
@@ -50,7 +52,7 @@ const metadata = {
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'ご提供いただいた個人情報は、お客様とのコミュニケーションのために使用させていただきます。フォームの送信により、弊社のプライバシーポリシーに同意いただいたものとみなします。弊社は、お客様の個人情報を大切に扱い、適切に保護することをお約束いたします。',
     }}
   />
 </Layout>
