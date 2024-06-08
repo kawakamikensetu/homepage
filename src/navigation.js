@@ -71,7 +71,7 @@ export const footerData = {
     {
       ariaLabel: 'Instagram',
       icon: 'tabler:brand-instagram',
-      href: 'https://www.instagram.com/y_725nissy?igsh=MXBrZWowMThkN2dzMg%3D%3D&utm_source=qr',
+      href: 'https://www.instagram.com/kawakamiconstruction?igsh=Y29nZ2hxbjU1OTNt&utm_source=qr',
     },
   ],
   footNote: '©️ 2024 川上建設',
