@@ -54,6 +54,7 @@ export default function Home() {
           <div className="lg:w-1/2 w-full max-w-lg mx-auto">
             <div className="relative w-full" style={{ paddingBottom: "80%" }}>
               <Image
+                unoptimized
                 src="/home/home-top.jpg"
                 alt="関西エリア対応の住宅足場施工例 - 安全性と美観を両立"
                 layout="fill"
