@@ -4,14 +4,14 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "yussy.assets.newt.so",
+        hostname: "kawakamikensetu.assets.newt.so",
         port: "",
       },
-      {
-        protocol: "https",
-        hostname: "storage.googleapis.com",
-        port: "",
-      },
+      // {
+      //   protocol: "https",
+      //   hostname: "storage.googleapis.com",
+      //   port: "",
+      // },
     ],
   },
 };
